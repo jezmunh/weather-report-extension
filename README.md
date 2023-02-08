@@ -4,5 +4,5 @@ It is a simple chrome browser extension for checking weather report. This extens
 For running this extension you have to make a few steps:
   1. Get API-key in https://openweathermap.org/.
   2. Put your API-key into value ```apiKey``` variable in ```js/main.js``` file.
-  3. Upload folder with manifest.json into ```chrome://extensions/```.
+  3. Upload folder with ```manifest.json``` into ```chrome://extensions/```.
   4. Check your extension.
