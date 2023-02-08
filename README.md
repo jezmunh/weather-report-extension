@@ -8,3 +8,4 @@ For running this extension you have to make a few steps:
   4. Check your extension.
 
 # Screenshots
+<img src="https://github.com/jezmunh/weather-report-extension/blob/main/images/screenshot1.png?raw=true">
