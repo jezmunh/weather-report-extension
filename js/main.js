@@ -26,7 +26,8 @@ change_link.onclick = function () {
     let input_city = prompt('Enter city:')
     city = input_city
     localStorage.setItem("city", city)
-    city = localStorage.getItem("city")    
+    city = localStorage.getItem("city")
+    
     axios.get(url).then(res => {
     console.log(res.data)       
     document.querySelector('.city').innerHTML = res.data.name        
