@@ -1,13 +1,13 @@
-let apiKey = "YOUR_TOKEN_HERE";
-let city = "";
-let lang = 'en';
+let apiKey = "YOUR_TOKEN_HERE"
+let city = ""
+let lang = 'en'
 
 if(localStorage.getItem("city") == '') {
     let input_city = prompt('Enter the city:')
     city = input_city
     localStorage.setItem("city", city)
 } 
-city = localStorage.getItem("city")
+city = localStorage.getItem("city");
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=${lang}&units=metric&appid=${apiKey}`;
 axios.get(url).then(res => {
     console.log(res.data)
